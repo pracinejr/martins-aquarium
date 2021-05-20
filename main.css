@@ -1,0 +1,56 @@
+.pageHeader {
+  text-align: center;
+  flex-basis: 15%;
+  border: 4px solid black;
+  padding: 0 0 0 0.25em;
+  margin: 0.5em;
+  background-color: aqua;
+}
+
+.fish {
+  text-align: left;
+  font-size: medium;
+  flex-direction: row;
+  flex-basis: 5%;
+  flex-wrap: wrap;
+  border: 4px dotted black;
+  padding: 0 0 0 0.25em;
+  margin: 0.5em;
+  background-color: azure;
+}
+
+.quote {
+  text-align: center;
+  padding: 0 0 0 0.25em;
+  margin: 0.5em;
+  background-color: azure;
+}
+
+.aside {
+  flex-direction: right;
+  flex-basis: 25%;
+  background-color: rgb(107, 107, 255);
+  text-align: center;
+}
+
+.mainPage {
+  border: 4px solid black;
+  display: flex;
+  background-color: beige;
+}
+
+.bodyLeft {
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 75%;
+}
+
+.tips {
+  text-align: center;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  float: left;
+}
