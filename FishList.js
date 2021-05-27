@@ -5,7 +5,7 @@ export const FishList = () => {
     const fishes = fishDatabase.fish
 
     // Start building a string filled with HTML syntax
-    const htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fishList">'
 
     // Create HTNL representations of each fish here
     for (const fish of fishes) {
